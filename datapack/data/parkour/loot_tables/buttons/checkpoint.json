@@ -1,0 +1,19 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "carrot_on_a_stick",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{id:\"parkour:checkpoint\",CustomModelData:14500001,display:{Name:'[{\"text\": \"Checkpoint\", \"color\": \"#FC9FFC\", \"bold\": true, \"italic\": false},{\"text\": \" (Click)\", \"color\": \"gray\", \"bold\": false}]',Lore:['{\"text\": \"Return to your last checkpoint.\",\"color\": \"gray\",\"italic\": false}','[{\"text\": \"This will increase your fail count.\",\"color\": \"gray\",\"italic\": false}]']},PickupDelay:0}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

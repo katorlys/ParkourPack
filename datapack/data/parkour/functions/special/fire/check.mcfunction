@@ -1,0 +1,1 @@
+execute as @a[predicate=parkour:mechanism/fire,tag=parkour.p.on] at @s if entity @e[tag=parkour.config.mechan.fireDeath,tag=parkour.marker] run kill @s

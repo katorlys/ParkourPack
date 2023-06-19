@@ -1,0 +1,16 @@
+{
+    "condition": "entity_properties",
+    "entity": "this",
+    "predicate": {
+        "nbt": "{Tags:[\"parkour.p.on\"]}",
+        "flags": {},
+        "equipment": {
+            "mainhand": {
+                "items": [
+                    "carrot_on_a_stick"
+                ],
+                "nbt": "{id:'parkour:checkpoint'}"
+            }
+        }
+    }
+}

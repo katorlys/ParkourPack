@@ -1,0 +1,2 @@
+execute as @a[predicate=parkour:ores/ores,tag=parkour.p.on] at @s if block ~ ~-1 ~ black_concrete run kill @s
+execute as @a[predicate=parkour:ores/ores,tag=parkour.p.on] at @s if block ~ ~-1 ~ black_concrete_powder run kill @s

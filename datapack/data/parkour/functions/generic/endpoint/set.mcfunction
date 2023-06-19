@@ -1,0 +1,9 @@
+function parkour:generic/endpoint/reset
+
+execute if entity @e[tag=parkour.config.misc.showEndParticles,tag=parkour.marker] run summon firework_rocket ~ ~1 ~ {LifeTime:25,FireworksItem:{id:"firework_rocket",Count:1,tag:{Fireworks:{Flight:2,Explosions:[{Type:1,Flicker:0,Trail:1,Colors:[I;11743532,14602026]}]}}}}
+execute if entity @e[tag=parkour.config.misc.playEndSound,tag=parkour.marker] run playsound ui.toast.challenge_complete block @s ~ ~4 ~ 3 1 1
+execute if entity @e[tag=parkour.config.misc.showEndTitle,tag=parkour.marker] run title @s title {"text": ""}
+execute if entity @e[tag=parkour.config.misc.showEndTitle,tag=parkour.marker] run title @s subtitle {"text": "Parkour Finished!","color": "#38BDF8"}
+
+tellraw @s [{"text": "\n Parkour Result\n","color": "#FF9971","bold": true}]
+tellraw @s [{"text": "     Time: ","color": "gray"},{"score": {"name": "@s","objective": "parkour.p.day"},"color": "white"},{"text": ":","color": "white"},{"score": {"name": "@s","objective": "parkour.p.hour"},"color": "white"},{"text": ":","color": "white"},{"score": {"name": "@s","objective": "parkour.p.min"},"color": "white"},{"text": ":","color": "white"},{"score": {"name": "@s","objective": "parkour.p.sec"},"color": "white"},{"text": ", ","color": "gray"},{"text": "Level: ","color": "gray"},{"score": {"name": "@s","objective": "parkour.p.level"},"color": "white"},{"text": ", ","color": "gray"},{"text": "Jumps: ","color": "gray"},{"score": {"name": "@s","objective": "parkour.p.jump"},"color": "white"},{"text": ", ","color": "gray"},{"text": "Fails: ","color": "gray"},{"score": {"name": "@s","objective": "parkour.p.fail"},"color": "white"},{"text": "\n"}]

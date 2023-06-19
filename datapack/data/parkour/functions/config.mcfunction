@@ -1,0 +1,1 @@
+function parkour:config/chat/1_player

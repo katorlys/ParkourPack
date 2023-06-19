@@ -1,0 +1,1 @@
+execute as @a[predicate=parkour:mechanism/lava,tag=parkour.p.on] at @s if entity @e[tag=parkour.config.mechan.lavaDeath,tag=parkour.marker] run kill @s

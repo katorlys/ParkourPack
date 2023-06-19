@@ -1,0 +1,2 @@
+execute as @a[predicate=parkour:ores/common_ores,gamemode=!spectator,tag=parkour.p.on] at @s if block ~ ~-1 ~ lapis_block run function parkour:special/elytra/equip
+execute as @a[predicate=parkour:ores/deepslate_ores,gamemode=!spectator,tag=parkour.p.on] at @s if block ~ ~-1 ~ lapis_block run function parkour:special/elytra/unequip

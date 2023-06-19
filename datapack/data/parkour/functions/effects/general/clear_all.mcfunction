@@ -1,0 +1,2 @@
+execute as @a[predicate=parkour:ores/ores,tag=parkour.p.on] at @s if block ~ ~-1 ~ white_concrete run function parkour:effects/general/__clear_all__
+execute as @a[predicate=parkour:ores/ores,tag=parkour.p.on] at @s if block ~ ~-1 ~ white_concrete_powder run function parkour:effects/general/__clear_all__

@@ -1,0 +1,2 @@
+execute if entity @e[tag=parkour.config.player.confirmQuit,tag=parkour.marker] run function parkour:generic/quit/chat/confirm
+execute if entity @e[tag=parkour.marker,tag=!parkour.config.player.confirmQuit] run function parkour:generic/quit/chat/quitted

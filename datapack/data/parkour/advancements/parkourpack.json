@@ -1,0 +1,37 @@
+{
+    "display": {
+        "icon": {
+            "item": "diamond_boots"
+        },
+        "title": [
+            {"text": "Parkour","color": "#3FB4FD","bold": true},
+            {"text": "Pack","color": "#00D29F","bold": true}
+        ],
+        "description": {
+            "text": "Simple parkour utility datapack.",
+            "bold": false,
+            "extra": [
+                {"text": "\n- Use ","color": "gray"},
+                {"text": "/trigger checkpoint", "color": "white"},
+                {"text": " to go back to checkpoint", "color": "gray"},
+                {"text": "\n- Use ","color": "gray"},
+                {"text": "/trigger quit", "color": "white"},
+                {"text": " to quit parkour", "color": "gray"},
+                {"text": "\n- Use ","color": "gray"},
+                {"text": "/function parkour:config", "color": "white"},
+                {"text": " to open configuration", "color": "gray"},
+                {"text": "\n- Use ","color": "gray"},
+                {"text": "/function parkour:uninstall", "color": "white"},
+                {"text": " to disable datapack", "color": "gray"}
+            ]
+        },
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "parent": "global:katorly",
+    "criteria": {
+        "trigger": {
+            "trigger": "tick"
+        }
+    }
+}

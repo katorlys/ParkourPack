@@ -1,0 +1,1 @@
+execute as @a[scores={checkpoint=1..}] at @s run function parkour:generic/checkpoint/get

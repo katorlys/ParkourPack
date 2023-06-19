@@ -1,0 +1,3 @@
+scoreboard players add @s quit 1
+scoreboard players enable @s quit
+tellraw @s [{"text": "\n    Are you sure you want to quit parkour?\n         You will lose all your progress!\n\n","color": "#FF4F4F"},{"text": "                    "},{"text": "[Yes]","color": "#79E096","bold": true,"hoverEvent": {"action": "show_text","value": "Click to confirm"},"clickEvent": {"action": "run_command","value": "/trigger quit"}},{"text": "    "},{"text": "[No]","color": "#FF8787","bold": true,"hoverEvent": {"action": "show_text","value": "Click to cancel"},"clickEvent": {"action": "run_command","value": "/trigger unconfirm"}},{"text": "\n\n      Do it again or click \"Yes\" to confirm.\n","color": "gray","italic": true}]

@@ -1,0 +1,32 @@
+{
+    "pack": {
+        "pack_format": 10,
+        "description": [
+            {
+                "text": "Parkour",
+                "color": "#3FB4FD",
+                "bold": true
+            },
+            {
+                "text": "Pack",
+                "color": "#00D29F",
+                "bold": true
+            },
+            {
+                "text": " v1.0.0-b1",
+                "color": "white",
+                "bold": false
+            },
+            {
+                "text": "\nby ",
+                "color": "white",
+                "bold": false
+            },
+            {
+                "text": "Katorly",
+                "color": "#C49AFC",
+                "bold": false
+            }
+        ]
+    }
+}

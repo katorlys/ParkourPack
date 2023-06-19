@@ -1,0 +1,2 @@
+execute as @a[predicate=parkour:ores/common_ores,gamemode=!spectator,tag=parkour.p.on] at @s if block ~ ~-1 ~ redstone_block run function parkour:special/half_heart/half
+execute as @a[predicate=parkour:ores/deepslate_ores,gamemode=!spectator,tag=parkour.p.on] at @s if block ~ ~-1 ~ redstone_block run function parkour:special/half_heart/reset

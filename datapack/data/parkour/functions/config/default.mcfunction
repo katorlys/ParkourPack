@@ -1,0 +1,1 @@
+execute as @e[tag=parkour.marker] at @s run function parkour:config/reset
