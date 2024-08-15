@@ -1,7 +1,7 @@
-<p align="center"><a href="https://github.com/katorlys/ParkourPack/issues"><img src="https://cdn.jsdelivr.net/gh/katorlys/ParkourPack/img/icon.png" height="75"></a></p>
+<p align="center"><a href="https://github.com/katorlys/ParkourPack"><img src="https://cdn.jsdelivr.net/gh/katorlys/ParkourPack/img/icon.png" height="75"></a></p>
 <h1 align="center">ParkourPack</h1>
 <p align="center">Simple parkour utility datapack.<br><br>
-<a href="https://creativecommons.org/licenses/by-nc-sa/4.0"><img src="https://img.shields.io/badge/license-CC%20BY--NC--SA--4.0-green?style=flat-square"></a> <a href="https://github.com/katorlys/ParkourPack/releases/latest"><img src="https://img.shields.io/github/v/release/katorlys/ParkourPack?include_prereleases&style=flat-square"></a> <a href="https://github.com/katorlys/ParkourPack/pulls"><img src="https://img.shields.io/github/issues-pr-closed/katorlys/ParkourPack?style=flat-square"></a> <a href="https://github.com/katorlys/ParkourPack/issues"><img src="https://img.shields.io/github/issues-closed/katorlys/ParkourPack?style=flat-square"></a>
+<a href="https://creativecommons.org/licenses/by-nc-sa/4.0"><img src="https://img.shields.io/badge/license-CC%20BY--NC--SA--4.0-green?style=flat-square"></a> <a href="https://github.com/katorlys/ParkourPack/releases/latest"><img src="https://img.shields.io/github/v/release/katorlys/ParkourPack?include_prereleases&style=flat-square"></a> <a href="https://github.com/katorlys/ParkourPack/pulls"><img src="https://img.shields.io/github/issues-pr-closed/katorlys/ParkourPack?style=flat-square"></a> <a href="https://github.com/katorlys/ParkourPack/issues"><img src="https://img.shields.io/github/issues-closed/katorlys/ParkourPack?style=flat-square"></a></p>
 
 ## Introduction
 Don't need to worry about the parkour facilities when creating parkour maps anymore! This multiplayer-friendly parkour datapack provides various parkour-related utilities, including timer, starting point, checkpoint, end point, effect blocks, special blocks and more!  
@@ -52,7 +52,7 @@ As this datapack is licensed under [CC BY-NC-SA-4.0](https://creativecommons.org
 - 5 Negative effect blocks (including no jumping and no sprinting)
 - Controllable seconds and amplifiers
 ### Special Blocks
-- Half heart: Reduce player's blood to a half
+- Half heart: Reduce player's health to one
 - Elytra: Gives player an elytra temporarily
 - The special things applied to players can be retrieved
 ### Settings
@@ -81,7 +81,7 @@ Above is just a tip of the iceberg, please [head to our Wiki](https://github.com
 Please go to our [Github release page](https://github.com/katorlys/ParkourPack/releases).  
 
 ## Notice
-- The datapack is licensed under [CC BY-NC-SA-4.0](https://creativecommons.org/licenses/by-nc-sa/4.0), and is FOREVER FREE.
+- The datapack is licensed under [CC BY-NC-SA-4.0](https://creativecommons.org/licenses/by-nc-sa/4.0), and is FREE FOREVER.
 - Test before reviewing. Please don't leave bad reviews if you dislike it.
 - If you find a bug, still don't know how to use the datapack, or have new features to suggest, go to our [Github issues page](https://github.com/katorlys/ParkourPack/issues).
 - Have any other issues or questions? Go to [Discussions](https://github.com/orgs/katorlys/discussions) for further assistance.
